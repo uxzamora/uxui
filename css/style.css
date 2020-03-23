@@ -1,4 +1,6 @@
-
+* {
+    font-family: 'Titillium Web', sans-serif;
+}
 
 section {
     border: 1px red dotted;
