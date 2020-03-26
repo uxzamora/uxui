@@ -1,29 +1,34 @@
 * {
     font-family: 'Titillium Web', sans-serif;
 }
-
-body{
+body {
     margin: 0;
     padding: 0;
+}
+header {
+    justify-content: space-around;
+}
+footer {
+    justify-content: space-between;
+    align-items: center;
 }
 section {
     border: 1px red dotted;
     min-height: 100vh;
+    background-color: moccasin;
 }
-
 i {
-    color: rgb(127, 238, 37);
-
+    color: mediumpurple;
 }
-
+/* Text Styles // start */
 h1 {
-    color:rgb(255, 255, 255);
+    color:darksalmon;
 }
 h2 {
-    color: rgb(255, 255, 255);
+    color: yellow;
 }
 h3 {
-    color:rgb(255, 255, 255);
+    color:white;
 }
 h4 {
 }
@@ -31,54 +36,55 @@ h5 {
 }
 h6 {
 }
-
 ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-
 li {
-display: inline;
-
-
-
+    display: inline;
 }
 /* Text Styles // end */
-
-
-
 /* CLASSES */
-
-.bgColorThitle {
-    background-color: rgb(240, 167, 167);
+.row {
+    display: flex;
 }
-
-.bgColorSection2 {
-    background-color: rgb(13, 92, 156);
-}
-
-.bgColorSection3 {
-    background-color: violet;
-    background-image: url("../img/lolioni-kknrCfZHsyo-unsplash.jpg");
+.hero {
+    text-align: center;
+    background-image: url("../img/7shifts-bZ3AqX6J7Cc-unsplash.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+.bgColorSection1 {
+    background-color: blueviolet;
+}
+.bgColorSection2 {
+    background-color: brown;
+}
+.bgColorSection3 {
+    background-color: aquamarine;
+}
 .bgColorSection4 {
-    background-color: yellow;
+    background-color: lavender;
+    background-image: url("../img/7shifts-bZ3AqX6J7Cc-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
-.bgColorSection5 {
-    background-color: yellowgreen;
-}
-
-.bgColorSection6 {
-    background-color: teal;
-}
-
-.fa-search {
+.fa-searchengin {
     color: black;
+}
+.centerSectionCol {
+    text-align: center;
+}
+/* ID  */
+#featuresSection {
+    justify-content: space-between;
+    align-items: center;
+}
+#testimonialSection {
+    /* justify-content: center; */
+    width: 500px;
+    text-align: center;
 }
