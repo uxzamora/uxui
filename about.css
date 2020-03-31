@@ -1,0 +1,66 @@
+
+/* --------------------------------------------- */
+/* Mobile */
+/* --------------------------------------------- */
+
+
+body {
+
+background-color: navajowhite;
+}
+
+h1 {
+     color: cornflowerblue;
+}
+
+h2 { 
+
+color: crimson;
+}
+
+
+
+
+
+/* --------------------------------------------- */
+/*Tablet */
+/* --------------------------------------------- */
+@media only screen and (min-width: 600px) {
+   body {
+       background-color: palegreen;
+   }
+   
+    h1 {
+
+        color: orange;
+
+    }
+
+    h2 {
+        color: palevioletred;
+    }
+
+}
+
+
+
+
+/* --------------------------------------------- */
+/* Desktop */
+/* --------------------------------------------- */
+@media only screen and (min-width: 768px)  {
+    body {
+        background-color: rgb(141, 38, 60);
+    }
+    
+     h1 {
+ 
+         color: rgb(36, 125, 167);
+ 
+     }
+ 
+     h2 {
+         color: papayawhip;
+     }
+ 
+}

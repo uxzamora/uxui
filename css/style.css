@@ -7,6 +7,7 @@ body {
 }
 header {
     justify-content: space-around;
+    padding: 10px;
 }
 footer {
     justify-content: space-between;
@@ -43,6 +44,27 @@ ul {
 }
 li {
     display: inline;
+    padding: 1.2em;
+}
+a {
+    text-decoration: none;
+    /* color: black; */
+    /* margin: 0.8em; */
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: green;
+}
+a:active {
+    color: yellow;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+    background-color: chartreuse;
+    /* padding: 0.12em; */
 }
 /* Text Styles // end */
 /* CLASSES */
@@ -51,10 +73,11 @@ li {
 }
 .hero {
     text-align: center;
-    background-image: url("../img/7shifts-bZ3AqX6J7Cc-unsplash.jpg");
+    background-image: url("../img/you-x-ventures-8wH1NjFthaY-unsplash.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    /* padding-top: 20%; */
 }
 .bgColorSection1 {
     background-color: blueviolet;
@@ -78,6 +101,10 @@ li {
 .centerSectionCol {
     text-align: center;
 }
+.footer-menu {
+    display: block;
+    padding: 0 1.2em 1.2em 0;
+}
 /* ID  */
 #featuresSection {
     justify-content: space-between;
@@ -88,3 +115,8 @@ li {
     width: 500px;
     text-align: center;
 }
+
+
+
+
+
